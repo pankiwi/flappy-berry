@@ -8,7 +8,7 @@
 	// The game author(s)
 	"author": "Pankiwi",
 	// The game description
-	"description": "flappy bird but made in lua and is berry",
+	"description": "is a game",
   //GAME NOT SOPPORT OTHER SYSTEM  ONLY FOR MOBILE
 	// Windows-specific settings. If this is set to null and Windows workflow is
 	// enabled, then the workflow will error!
