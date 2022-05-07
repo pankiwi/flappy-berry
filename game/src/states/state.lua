@@ -8,6 +8,7 @@ end
 
 function state:draw()
   love.graphics.scale(SCALE)
+  love.graphics.translate(0, SHIFTDOWN)
   love.graphics.setColor(1, 1, 1)
   self:drawState()
 end

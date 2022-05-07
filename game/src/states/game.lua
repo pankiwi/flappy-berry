@@ -13,6 +13,8 @@ function game:drawState()
   SceneManager:drawGround()
   playerControllerJump:draw()
   Player:draw()
+  
+  logger:draw()
 end
 
 function game:update(dt)

@@ -36,6 +36,8 @@ function initGame()
   SceneManager:load()
   PlayerControllerJump:load()
   LimitWorld:load()
+  
+  logger:info(SCALE .. "_" .. SHIFTDOWN)
 end
 
 function createClassHitBox()
