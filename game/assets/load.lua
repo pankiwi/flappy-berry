@@ -1,19 +1,27 @@
 return {
   {
-    path = "assets/brick.png",
-    name = "brick"
+    path = "assets/scene/ground_top.png",
+    name = "ground_top"
   },
   {
-    path = "assets/base.png",
-    name = "base"
+    path = "assets/scene/ground_underground.png",
+    name = "ground_underground"
   },
   {
-    path = "assets/berry.png",
+    path = "assets/scene/backgroundtest.png",
+    name = "back"
+  },
+  {
+    path = "assets/obstacles/wall_wood.png",
+    name = "wall_wood"
+  },
+  {
+    path = "assets/player/berry.png",
     name = "berry"
   },
   {
-    path = "assets/ui/tap",
-    name = "uiTap",
+    path = "assets/player/fires",
+    name = "fires",
     isAtlas = true
   }
 }

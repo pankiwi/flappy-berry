@@ -6,6 +6,10 @@ function logger:clear()
   love.filesystem.write(logger.LoggerNameFile, "-- Logger Game --")
 end
 
+function logger:draw()
+  local line = love.filesystem.read("log_game.txt"):gsub("\r", "")
+  love.graphics.printf(string.match(line, "[^%c]*$"), 40, 38, 800,"left")
+end
 function logger:err(txt)
   self:print("\n[E]: " .. txt)
 end

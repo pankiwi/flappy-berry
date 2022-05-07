@@ -1,9 +1,6 @@
-love.window.setMode(1, 2)
-
-function love.load()
+function love.load(arg)
   require("src/initGame")
   initGame()
-  
-  GameState.registerEvents{"draw", "update", "touchreleased", "keypressed"}
-  GameState.switch(menu)
+  GameState.registerEvents{"draw", "update", "touchreleased", "touchpressed", "keypressed"}
+  GameState.switch(game)
 end
