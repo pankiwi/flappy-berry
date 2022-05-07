@@ -4,11 +4,11 @@
 	// The game version
 	// Please specify at least correct version numbers. Some platforms are picky
 	// of the version string specified!
-	"version": "0.1",
+	"version": "0.2 alfa",
 	// The game author(s)
 	"author": "Pankiwi",
 	// The game description
-	"description": "is a game",
+	"description": "",
   //GAME NOT SOPPORT OTHER SYSTEM  ONLY FOR MOBILE
 	// Windows-specific settings. If this is set to null and Windows workflow is
 	// enabled, then the workflow will error!
